@@ -134,5 +134,8 @@
       }
     }
   },
-  "defaultProject": "GITBoard"
+  "defaultProject": "GITBoard",
+  "cli": {
+    "analytics": false
+  }
 }

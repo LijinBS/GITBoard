@@ -17,6 +17,8 @@ import { TotalReleaseComponent } from './total-release/total-release.component';
 import { ActionTakenComponent } from './action-taken/action-taken.component';
 import { StarredComponent } from './starred/starred.component';
 import { DashboardComponent } from './dashboard.component';
+import { NzZorroAntdModule } from 'src/app/nzzorro.module';
+
 
 
 
@@ -24,6 +26,7 @@ import { DashboardComponent } from './dashboard.component';
   declarations: [RepositoriesComponent, MostactiveusersComponent, ActivityReportComponent,LicensesComponent,ImportantTagsComponent,LanguagesComponent,VisitorsComponent,WatchersComponent,TotalContributorsComponent,TotalReleaseComponent,TotalIssuesComponent,ActionTakenComponent,StarredComponent,TotalPullRequesComponent,HeaderComponent],
   imports: [
     CommonModule,
+    NzZorroAntdModule
     
   ],
   exports :[RepositoriesComponent,MostactiveusersComponent,ActivityReportComponent,LicensesComponent,ImportantTagsComponent,LanguagesComponent,VisitorsComponent,WatchersComponent,TotalContributorsComponent,TotalReleaseComponent,TotalIssuesComponent,ActionTakenComponent,StarredComponent,TotalPullRequesComponent,HeaderComponent]

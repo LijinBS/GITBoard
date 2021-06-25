@@ -4,6 +4,8 @@ import { HeadersComponent } from './headers/headers.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { NzZorroAntdModule } from '../nzzorro.module';
+
 
 
 
@@ -11,7 +13,11 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   declarations: [HeadersComponent, NavbarComponent,DashboardComponent],
   imports: [
     CommonModule,
-    DashboardModule
+    DashboardModule,
+    NzZorroAntdModule   
+       
+    
+    
   ],
   exports : [HeadersComponent,NavbarComponent,DashboardComponent]
 })

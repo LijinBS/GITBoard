@@ -1,0 +1,51 @@
+*{
+   padding:0;
+   margin:0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+ } 
+
+nz-header {
+  background-color:white;
+  padding: 0;
+ }
+ .logo{
+        padding: 0 40px;
+}
+ ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+}
+ nav ul{
+        
+        float:right;
+        margin-right:20px;
+}
+nav ul li{
+        display:inline-block;
+        padding:0 8px;
+        
+}
+label i{
+        font-size:30px;
+        color:rgb(175,105,241);
+}
+     
+.btn{
+        width:100px;
+        background-color: rgb(237,241,251);
+}
+.size{
+        font-size: 22px;
+}
+.dropdown{
+      width:100px;
+       padding:20px 20px;
+       
+}
+
+    

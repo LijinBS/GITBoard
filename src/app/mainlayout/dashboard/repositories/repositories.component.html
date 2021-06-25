@@ -1,1 +1,36 @@
-<p>repositories works!</p>
+<!-- <p>repositories works!</p>
+<div class="grid-config">
+    <h2><i ngstyle={color:rgb(175,105,241)} nz-icon [nzType]="'dropbox'"></i>  Repositories</h2>
+    
+    
+    <nz-select  class="padding modify" ngModel="lucy" nzPlaceHolder="Select Repositories" >
+        <nz-option nzValue="jack" nzLabel="Jack"></nz-option>
+        <nz-option nzValue="lucy" nzLabel="Lucy"></nz-option>
+        <nz-option nzValue="disabled" nzLabel="Disabled" nzDisabled></nz-option>
+      </nz-select>
+      <nz-select class="padding" ngModel="lucy" nzPlaceHolder="Latest" >
+        <nz-option nzValue="jack" nzLabel="Jack"></nz-option>
+        <nz-option nzValue="lucy" nzLabel="Lucy"></nz-option>
+        <nz-option nzValue="disabled" nzLabel="Disabled" nzDisabled></nz-option>
+      </nz-select>
+      <nz-table [nzData]="listOfData" [nzFrontPagination]="false" [nzShowPagination]="false">
+        <thead>
+          <tr>
+            <th>Repostories</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Last worked</th>
+          </tr>
+        </thead>
+         <tbody cdkDropList (cdkDropListDropped)="drop($event)">
+          <tr *ngFor="let data of listOfData" cdkDrag>
+            <td>{{ data.name }}</td>
+            <td>{{ data.age }}</td>
+            <td>{{ data.address }}</td>
+            <td>{{ data.lastWorked }}</td>  
+          </tr>
+        </tbody> -->
+      <!-- </nz-table>
+      
+  
+</div> --> 
