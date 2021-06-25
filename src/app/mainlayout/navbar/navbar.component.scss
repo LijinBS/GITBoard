@@ -1,0 +1,65 @@
+nz-tag{
+    background: none;
+    margin-left: 0px;
+    border: none; 
+}
+ul li{
+    list-style-type: none;
+   
+}
+li:hover{
+    border-right: 5px solid;
+    border-color: rgb(189, 79, 216);
+    border-radius: 3px;
+    background-color: white;
+    [nz-icon]{
+        font-size: 20px;
+    }  
+    a:hover{
+        font-size: 15px;
+        color: rgb(26, 25, 25);
+        font-weight: 600;
+       
+    }
+
+}
+a{
+    color: grey;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+[nz-icon]{  
+    font-size: 17px; 
+     padding-right: 10px;
+}
+[nz-menu]{
+    width:250px;
+    
+}
+nz-badge{
+   position: absolute;
+   right: 5px;  
+   padding-right: 5px;
+}
+:host{
+    ::ng-deep{
+        .ant-menu-item{
+            &::after{
+                border-right: none;   
+            }    
+        }
+    }
+}
+:host{
+    ::ng-deep{ 
+        .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+            background-color: white;
+            background: none;
+            color: white;
+        }
+          } }
+              
+
+
+
+

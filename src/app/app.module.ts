@@ -4,12 +4,15 @@ import { MainlayoutModule } from './mainlayout/mainlayout.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainLayoutComponent } from './mainlayout/mainlayout.component';
-import {NzButtonModule} from 'ng-zorro-antd/button';
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NzZorroAntdModule } from './modulesn/nzzorro.module';
+
+
+
 registerLocaleData(en);
 
 
@@ -27,10 +30,9 @@ registerLocaleData(en);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NzButtonModule
-  
+    NzZorroAntdModule
     
-  
+    
   ],
   providers: [],
   

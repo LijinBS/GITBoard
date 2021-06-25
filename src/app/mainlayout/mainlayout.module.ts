@@ -5,13 +5,23 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
+import { NzTagModule } from 'ng-zorro-antd/tag';
+import { NzZorroAntdModule } from '../modulesn/nzzorro.module';
+
+
 
 
 @NgModule({
   declarations: [HeadersComponent, NavbarComponent,DashboardComponent],
   imports: [
     CommonModule,
-    DashboardModule
+    DashboardModule,
+  NzTagModule,
+  NzZorroAntdModule
+   
+
+   
+   
   ],
   exports : [HeadersComponent,NavbarComponent,DashboardComponent]
 })

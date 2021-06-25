@@ -20,11 +20,19 @@ import { DashboardComponent } from './dashboard.component';
 
 
 
+
+
+
+
+
 @NgModule({
   declarations: [RepositoriesComponent, MostactiveusersComponent, ActivityReportComponent,LicensesComponent,ImportantTagsComponent,LanguagesComponent,VisitorsComponent,WatchersComponent,TotalContributorsComponent,TotalReleaseComponent,TotalIssuesComponent,ActionTakenComponent,StarredComponent,TotalPullRequesComponent,HeaderComponent],
   imports: [
     CommonModule,
     
+  
+
+ 
   ],
   exports :[RepositoriesComponent,MostactiveusersComponent,ActivityReportComponent,LicensesComponent,ImportantTagsComponent,LanguagesComponent,VisitorsComponent,WatchersComponent,TotalContributorsComponent,TotalReleaseComponent,TotalIssuesComponent,ActionTakenComponent,StarredComponent,TotalPullRequesComponent,HeaderComponent]
 })
